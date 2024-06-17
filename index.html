@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="cabecera">
+            <h1>Etch-a-Sketch</h1>
+            <button id="newGrid" class="newGrid">New Grid</button>
+        </div>
+        <div class="cuerpo">
+            <div class="botones">
+                <button class="pixelear" id="pixelear" onclick="pixelGrid()">Pixelear</button>
+                <button class="arcoiris" id="arcoiris" onclick="arcoGrid()">Arcoiris</button>
+                <button class="sombrear" id="sombrear" onclick="sombraGrid()">Sombrear</button>
+                
+                
+                <button class="clear" id="clear" onclick="clearGrid()">Borrador</button>
+                <button class="clear" id="clear" onclick="clearAll()">Borra Todo</button>
+
+            </div>
+            <div class="container-divs" id="container-divs"></div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
